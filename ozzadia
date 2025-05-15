@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OZZADO RECORDS - Ozzado</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      background-color: #000000;
+      color: #d4af37; /* dourado */
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header {
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #d4af37;
+      padding-bottom: 0.5rem;
+      user-select: none;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .artist-photo {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      border: 5px solid #d4af37;
+      object-fit: cover;
+      box-shadow: 0 0 15px #d4af37;
+      transition: transform 0.3s ease;
+    }
+    .artist-photo:hover {
+      transform: scale(1.05);
+    }
+
+    h2 {
+      font-weight: 700;
+      font-size: 2.5rem;
+      margin: 0;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      text-shadow: 0 0 8px #d4af37;
+    }
+
+    p.description {
+      font-weight: 400;
+      font-size: 1.15rem;
+      color: #f5e9b2;
+      line-height: 1.5;
+      max-width: 500px;
+      font-style: italic;
+      user-select: text;
+    }
+
+    .links {
+      display: flex;
+      gap: 1.5rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .link-btn {
+      background: transparent;
+      border: 2px solid #d4af37;
+      color: #d4af37;
+      padding: 0.75rem 1.6rem;
+      border-radius: 30px;
+      font-weight: 700;
+      font-size: 1rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.3s ease;
+      user-select: none;
+    }
+    .link-btn:hover {
+      background: #d4af37;
+      color: #000000;
+      box-shadow: 0 0 12px #d4af37;
+    }
+
+    .link-btn svg {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 1rem 0;
+      font-size: 0.9rem;
+      color: #666;
+      user-select: none;
+    }
+
+    @media (max-width: 480px) {
+      header {
+        font-size: 2.2rem;
+        letter-spacing: 0.1em;
+      }
+      h2 {
+        font-size: 2rem;
+      }
+      .artist-photo {
+        width: 180px;
+        height: 180px;
+      }
+      .link-btn {
+        font-size: 0.9rem;
+        padding: 0.6rem 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>OZZADO RECORDS</header>
+  <main>
+    <img
+      class="artist-photo"
+      src="https://yt3.ggpht.com/ytc/AKedOLRs2VLC25ZclIebxkk5U37rq7w-BgJqa0pF4E=w512-c-k-c0x00ffffff-no-rj"
+      alt="Foto do artista Ozzado"
+    />
+    <h2>Ozzado</h2>
+    <p class="description">
+      Ozzado é um artista que traz o melhor da música com estilo único e alma vintage, representando a essência da Ozzado Records.
+    </p>
+    <div class="links">
+      <a class="link-btn" href="https://open.spotify.com/intl-pt/artist/24fE7vAvTka9sWKVxz7OCt?si=so1a7JziTQ6GA-Khi7WGhg" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9 9 9 0 0 0-9-9zm3.86 13.66a.75.75 0 0 1-1.02.25 5.48 5.48 0 0 0-3.62-.92 5.52 5.52 0 0 0-3.94 1.34.75.75 0 0 1-1.02-1.1 6.97 6.97 0 0 1 5.16-1.73 6.9 6.9 0 0 1 4.4 1.77.75.75 0 0 1 .02 1.09zM17.48 11.1a.75.75 0 0 1-1 .49 9.87 9.87 0 0 0-7.12-1.78 9.88 9.88 0 0 0-5.04 2.3.75.75 0 1 1-1-1.12 11.38 11.38 0 0 1 5.82-2.66 11.37 11.37 0 0 1 8.44 2.3.75.75 0 0 1 .9 1.27zM18.27 8.41a.94.94 0 0 1-1.26.62 14.18 14.18 0 0 0-9.45-2.65 14.13 14.13 0 0 0-7.47 3.4.94.94 0 0 1-1.26-1.39 15.98 15.98 0 0 1 8.5-3.87 15.99 15.99 0 0 1 11.2 3.17.94.94 0 0 1 .74 1.72z"/></svg>
+        Spotify
+      </a>
+      <a class="link-btn" href="https://www.youtube.com/@OzzadoOficial" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24"><path d="M23.5 6.2s-.2-1.4-.8-2c-.7-.8-1.5-.8-1.9-.9C17.4 3 12 3 12 3s-5.4 0-8.8.3c-.4 0-1.2.1-1.9.9-.6.6-.8 2-.8 2S1 8.1 1 10v4c0 1.9.2 3.8.2 3.8s.2 1.4.8 2c.7.8 1.6.8 2 .9 1.5.2 6.4.3 6.4.3s5.4 0 8.8-.3c.4 0 1.3-.1 1.9-.9.6-.6.8-2 .8-2s.2-1.9.2-3.8v-4c0-1.9-.2-3.8-.2-3.8zM10 15.6v-7.2l6.2 3.6-6.2 3.6z"/></svg>
+        YouTube
+      </a>
+      <a class="link-btn" href="https://www.instagram.com/ozzadorecords/" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.3.1 2 .3 2.5.5a5 5 0 0 1 1.8 1.1 5 5 0 0 1 1.1 1.8c.2.5.4 1.2.5 2.5.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.3-.3 2-.5 2.5a5 5 0 0 1-1.1 1.8 5 5 0 0 1-1.8 1.1c-.5.2-1.2.4-2.5.5-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.3-.1-2-.3-2.5-.5a5 5 0 0 1-1.8-1.1 5 5 0 0 1-1.1-1.8c-.2-.5-.4-1.2-.5-2.5
